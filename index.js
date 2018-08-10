@@ -22,4 +22,7 @@ function dec(n)
 function makeInt(n){
   return parseInt(n,10)
 }
-functio
+function preserveDecimal(n)
+{
+  return parseFloat(n)
+}
